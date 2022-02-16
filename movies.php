@@ -19,9 +19,9 @@ class Movie
         $this->price = $price;
         $this->language = $language;
         if ($availability == true) {
-            $this->availability = "true";
+            $this->availability = "Available";
         } else {
-            $this->availability = "false";
+            $this->availability = "Not Available";
         }
     }
 
